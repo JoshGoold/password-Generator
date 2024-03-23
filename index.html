@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Password Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <div class="content">
+            <h1>Password Generator</h1>
+            <span> <label for="length">Enter desired length</label>&nbsp;<input type="number" id="length" placeholder="enter length"><br/></span>
+            <span><label for="lowerCase">Add Lower Case Letters</label><input id="lowerCase" type="radio"><br/></span>
+            <span><label for="upperCase">Add Upper Case Letter</label><input id="upperCase" type="radio"><br/></span>
+            <span><label for="nums">Add Numbers</label><input id="nums" type="radio"><br/></span>
+            <span><label for="symbols">Add Symbols</label><input id="symbols" type="radio"><br/><br/></span>
+            <button onclick="genPass()">Generate Password</button>
+            <p id="passResult"></p>
+        </div>
+    </body>
+
+    <script src="passwordGen.js"></script>
+</html>

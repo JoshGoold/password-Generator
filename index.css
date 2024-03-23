@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: hsl(216, 82%, 49%);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.content button{
+    background-color: white;
+    color: hsl(216, 82%, 49%);
+    border: none;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1.125em;
+    border-radius: 10px;
+}
+.content #length{
+    width: 100px;
+}
